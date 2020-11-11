@@ -64,5 +64,4 @@ class MoviesListViewModel: NSObject, NSFetchedResultsControllerDelegate {
         return fetchedResultsController?.object(at: indexPath)
     }
     
-    
 }

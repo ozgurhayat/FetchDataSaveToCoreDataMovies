@@ -38,8 +38,9 @@ class MainVC: UIViewController, UpdateTableViewDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         animateTable()
-        }
-
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
     
     // Mark: TableView beginning animation
     
@@ -64,7 +65,7 @@ class MainVC: UIViewController, UpdateTableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 350
+        return 400
     }
     
     

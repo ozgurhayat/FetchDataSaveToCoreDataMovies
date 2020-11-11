@@ -78,8 +78,8 @@
 			children = (
 				8251445225444188002C1B8A /* Segues */,
 				825144652544441F002C1B8A /* CoreData */,
-				8251447925445DB3002C1B8A /* Models */,
 				8251445825444243002C1B8A /* StoryBoards */,
+				8251447925445DB3002C1B8A /* Models */,
 				8251446025444340002C1B8A /* ViewModels */,
 				8251445925444269002C1B8A /* Controllers */,
 				8251447E25445E19002C1B8A /* Networking */,
@@ -399,13 +399,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8GSZNP58SG;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
 				INFOPLIST_FILE = Movies/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ozgur.Movies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayatozgur.MyFirstApp.movies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,13 +418,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8GSZNP58SG;
+				DEVELOPMENT_TEAM = D4VLX9X6RM;
 				INFOPLIST_FILE = Movies/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ozgur.Movies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayatozgur.MyFirstApp.movies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

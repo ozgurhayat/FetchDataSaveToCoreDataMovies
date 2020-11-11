@@ -14,6 +14,7 @@ class LaunchScreenVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()        
         loadPopularMoviesData()
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -51,8 +52,10 @@ class LaunchScreenVC: UIViewController {
     
 //     Perform a transition to the main screen (MoviesListViewController)
     @objc func mainScreen() {
-        let viewController = storyboard?.instantiateViewController(identifier: "main")
+        DispatchQueue.main.asyncAfter(deadline:.now() + 5.0, execute: {
+        let viewController = self.storyboard?.instantiateViewController(identifier: "main")
         self.navigationController?.pushViewController(viewController!, animated: true)
+        })
     }
 }
 
